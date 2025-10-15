@@ -37,5 +37,5 @@ jobs:
           context: .
           push: true
           tags: |
-            mano2102/docker-images:latest
-            mano2102/docker-images:${{ env.SHORT_SHA }}
+            rangandale/docker-images:latest
+            rangandale/docker-images:${{ env.SHORT_SHA }}
